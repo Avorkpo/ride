@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-container img {
+    max-width: 200px;
+    
+}
+img{
+    border-radius: 50%;
+}
+
+/* Add this styling for the WhatsApp icon */
+.whatsapp-icon {
+    color: #25d366; /* WhatsApp green color */
+}
+
+.whatsapp-icon i {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.booking-form {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
